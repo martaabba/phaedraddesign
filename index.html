@@ -125,67 +125,71 @@
 
 
    <div class="container anchor" id="portfolio">
+    
     <h1> Work </h1>
       <div class="row" id="work"></div><!--end row class-->  
     </div><!--end portfolio container-->
     
-<div class="container anchor" id="aboutme">
-
+  <div class="container anchor" id="aboutme">
     
-      <div class="header">
-        <h1>About Me</h1>
-      </div><!--close header-->
+    <h1>About Me</h1>
+   
+    <div class="row" id="about">
       
-      <div class="row" id="about">
-        <div class="col-sx-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="img/danikaberlin.jpg" class="responsive">
-        </div><!--close image column-->
+
         
-        <div class="col-sx-12 col-sm-12 col-md-4 col-lg-4">
-          <h3>creative type, gone geek</h3>
-          <p> After toiling in corporate america for the sake of golden handcuffs and in theatre in a smallish city, I decided to take my creative talents and mash them up with the skills i learned while on company time.
+      <div class="col-sx-12 col-sm-12 col-md-4 col-lg-4">
+        <h3>creative type, gone geek</h3>
+        <p> After toiling in corporate america for the sake of golden handcuffs and in theatre in a smallish city, I decided to take my creative talents and mash them up with the skills i learned while on company time.
          I live in portland, ore. with a husband, a kid, a one-eyed dog, and three chickens. I cannot maintain a garden to save my life, but I did can pears last Fall. I enjoy a good whisky, modern art, travel, literature and theatre.
          Having a background in collaborative creation as well as working with business owners makes web development an excellent fit for my skill-set.  I look forward to working with you and telling your story.</p>
-          
-          
-        </div><!--close introduction column-->
-        
-        <div class="col-sx-12 col-sm-12 col-md-4 col-lg-4" id="skills">
-          <h3>skills</h3>
-          <ul id="skill-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Ruby on Rails</li>
-            <li>Java Script</li>
-            <li>Business Background</li>
-            <li>Creative Problem Solver</li>
-            <li>Technical Writing</li>
-            <li>see resume with <a href="#learn" title="CV/Resume" id="item1">learn more</a>info</li>
-          </ul>
-        </div><!--skills column-->
-      </div><!--row close-->
-     
-     
-     
-</div><!--end container about me-->
+      </div><!--close introduction column-->
+      <div class="col-sx-12 col-sm-12 col-md-4 col-lg-4" id="profile">
+        <img src="img/danikaberlin.jpg" class="responsive">
+      </div><!--close image column-->
+      <div class="col-sx-12 col-sm-12 col-md-4 col-lg-4" id="skills">
+        <h3>skills</h3>
+        <ul id="skill-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Ruby on Rails</li>
+          <li>JavaScript</li>
+          <li>Business Background</li>
+          <li>Creative Problem Solver</li>
+          <li>Technical Writing</li>
+          <li><div class="modal-button">
+        <button class="btn btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg">Resume/CV</button>
+      </div><!--close modal button-->
+
+      <!--modal-->
+      <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labeledby="myLargeModalLabel" aria-hidden="true">
+      <div class"modal-dialog modal-lg">
+        <!--modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Professional and Creative Resume</h4>
+                </div><!--close modal-header-->
+                <embed id="modalembed" src="http://www.smashingmagazine.com/images/design-cv-resume/evalotta_lamm.pdf">
+
+              </div><!--close modal-content-->
+        </div><!--close modal-dialog-->
+      </div><!--close modal fade--></li>
+        </ul>
+      </div><!--skills column-->
+    </div><!--row close-->
+  </div><!--end container about me-->
 
 
     
-<div class="container anchor" id="contact" data-stellar-background-ratio="0.5"> 
+  <div class="container anchor" id="contact" data-stellar-background-ratio="0.5"> 
          <div class="connect">
           <div class="col-lg-4 col-md-4">
             
 
             <h1>let's talk</h1>
             <div class="chat">
-              <p>...about you and your website goals.  you can reach me through phone, email, social media, and if you are in portland, we can meet face to face.</p>
-            <div class="email">
-              <p><span class="glyphicon glyphicon-send"></span> phaedrads@gmail.com</p>
-            </div><!--email close-->
-        
-            <div class="phone">
-              <p><span class="glyphicon glyphicon-phone-alt"></span> 503.888.0616 </p>
-            </div><!--close phone-->           
+              <p>...about you and your website goals.  you can reach me here, thru social media, and if you are in portland, we can meet face to face.</p>
         
             <div class="physaddress">
               <p><span class="glyphicon glyphicon-globe"></span>  PDX 97266 </p>
@@ -237,26 +241,8 @@
     
   <div class="row">
     <h1 class="learn-more">learn more</h1>
-      <!--trigger the modal with a button-->    
-      <div class="modal-button">
-        <button class="btn btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg">Resume/CV</button>
-      </div><!--close modal button-->
-
-      <!--modal-->
-      <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labeledby="myLargeModalLabel" aria-hidden="true">
-      <div class"modal-dialog modal-lg">
-        <!--modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Professional and Creative Resume</h4>
-                </div><!--close modal-header-->
-                <embed id="modalembed" src="http://www.smashingmagazine.com/images/design-cv-resume/evalotta_lamm.pdf">
-
-              </div><!--close modal-content-->
-        </div><!--close modal-dialog-->
-      </div><!--close modal fade-->
-  </div><!--close row--> 
+  </div>
+ 
 
 
 <div class="container" id="accordion">
@@ -284,14 +270,14 @@
     <div class="panel-heading" role="tab" id="headingTwo">
       <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span class="glyphicon glyphicon-eye-open"></span>
-          Why did you decide to become a web-designer?
+          What are your rates?
         </a>
       </h4>
     </div>
     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
       <div class="panel-body">
-        After working in the banking industry for more than 8 years as a business banker, I needed to take stock and really re-assess what I wanted to spend eight plus hours a day doing with my life.  It wasn’t banking.  What I realized is that I really loved working with my business owners to help them with solutions that would work specifically for them.  I liked being on their team.  I was also involved in the Portland theatre scene as a designer and director.  When my daughter was born, I had to choose between being home at night after work with her or in a theatre.  I chose her, but I need a creative outlet.  This profession is a perfect match for my temperament and my need to tinker creatively.
-       
+        My rates vary by project.  We would need to discuss the nature of the project, how much assistance you need from me regarding content development, timeframes, etc.  
+        As every client's needs are different, the pricing will be different on every project.
       </div>
     </div>
   </div>
@@ -333,15 +319,14 @@
 
    <footer>
 
-    <p>&copy phaedrad design, 2016</p>
-
-      <div id="twitter">
-    <a href="https://twitter.com/phaedradsdesign" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @phaedradsdesign</a>
-      </div>
+    <p class="text-center">&copy phaedrad design, 2016</p>
+    <p><span class="glyphicon glyphicon-send"></span> phaedrads@gmail.com</p>
+    <p><span class="glyphicon glyphicon-phone-alt"></span>503.888.0616</p>
+    
 
       <div id="facebook">
-      <div class="fb-share-button" data-href="https://www.facebook.com/Phaedrad-Design-526184567554802/" data-layout="button"></div>
-        </div>
+        <div class="fb-find-me" a href="#"data-href="https://www.facebook.com/Phaedrad-Design-526184567554802/" data-layout="button"></div>
+      </div>
 
 
    </footer>

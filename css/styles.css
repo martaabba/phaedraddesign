@@ -50,12 +50,7 @@ body{
 	text-align: right;
 }
 /*end carousel css layout*/
-/*intentions css layout*/
-.modal-button{
-	float: right;
-	padding: 15px;
-}
-/*end intentions css layout*/
+
 
 .work-img{
 	display: block;
@@ -84,10 +79,11 @@ body{
 	padding-right: 0px;
 	vertical-align: 100vw;
 }
-/*about me css layout*/       
-.header h1{
-	text-align: center;
+
+#profile{
+	margin: 0 auto;
 }
+
 #skills{
 	background-color: #e27800 ;
 }
@@ -104,14 +100,12 @@ body{
 }
 
  
-div#about.row{
+#about.row{
 	margin-left: 0;
 	margin-right: 0;
 }
    
-div.main-text{
-	text-align: center;
-}
+
 /*end about css layout*/
 /*contact us css layout*/
 #contact.container.anchor{
@@ -137,32 +131,15 @@ div.main-text{
 }
 
 
-.email,
-.phone,
+
 .physaddress,
 .connect h1{
 	text-align: left;
 }
 
-.email span:hover,
-.phone span:hover,
-.physaddress span:hover{
-	color: #cc35df;
-}
-
-.email{
-	margin-top: 4%;
-}
-
-.phone{
-	margin-top: 5%
-}
-
 .physaddress{
 	margin-top: 2%;
 }
-
-
 
 .connect-form{
 	margin-left: 1em;
@@ -212,6 +189,10 @@ iframe{
 }
 /*end learn more css layout*/
 /*footer css layout*/
+footer{
+	background-color: black;
+}
+
 
 #twitter{
 	float: right;
@@ -240,9 +221,11 @@ h1{
 	font-size: 5em;
 }
 
-h4.panel-title {
+.panel-title {
 	color: #010141;
 }
+
+
 
 p{
 	font-family: Helvetica, Arial, sans-serif;
@@ -278,9 +261,7 @@ p{
    font-family: Helvetica, Arial, sans-serif;
 }
 
-.header h1{
-	font-size: 5em;
-	}
+
 
 #aboutme{
 	color: #e27800;
