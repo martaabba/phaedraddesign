@@ -3,7 +3,7 @@
 var works = [
 
 	{
-		title:"Kelly Elementary PTA",
+		title:"Kelly Elementary PTA, Managed Site",
 		pic:"img/gossipymom.jpg",
 		url: "http://kellyelementarypta.info/"
 		
@@ -15,9 +15,9 @@ var works = [
 		
 	},
 	{
-		title: "Michelle Seaton",
+		title: "MichelleSeaton.org, Managed Site",
 		pic: "img/cloudtectonics.jpg",
-		url: "http://michelleseaton.bitballoon.com//"
+		url: "http://michelleseaton.org/"
 		
 	}
 	

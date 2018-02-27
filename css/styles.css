@@ -59,7 +59,7 @@ body{
 	position: relative;
 }
 .info{
-	color: #e27800;
+	color: white;
 	display: none;
 	font-family: 'IM Fell English', serif;
 	font-weight:700;
@@ -301,7 +301,9 @@ p{
 		font-family: 'IM Fell English', serif;
 		font-size: 3em;
 		}
-
+p{
+	font-size: 1em;
+	}
 
 #counter{
 	color: #e27800;
